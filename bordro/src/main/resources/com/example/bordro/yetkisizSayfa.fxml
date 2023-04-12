@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bordro.YetkisizSayfa">
+   <children>
+      <Label alignment="CENTER" layoutX="208.0" layoutY="50.0" prefHeight="21.0" prefWidth="184.0" text="TC Kimlik Numarası Giriniz">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="arama" layoutX="140.0" layoutY="88.0" prefHeight="25.0" prefWidth="321.0" />
+      <Label layoutX="117.0" layoutY="127.0" text="İsim Soyisim" />
+      <Label layoutX="99.0" layoutY="153.0" text="TC Kimlik Numarası" />
+      <Label layoutX="110.0" layoutY="212.0" text="Sigorta Sicil No" />
+      <Label layoutX="107.0" layoutY="183.0" text="Medeni Durumu" />
+      <Label fx:id="isimSoyisim" layoutX="217.0" layoutY="127.0" prefHeight="17.0" prefWidth="333.0" />
+      <Label fx:id="tcKimlikNumarasi" layoutX="217.0" layoutY="153.0" prefHeight="17.0" prefWidth="333.0" />
+      <Label fx:id="medeniDurum" layoutX="226.0" layoutY="183.0" prefHeight="17.0" prefWidth="333.0" />
+      <Label fx:id="sigortaSicliNo" layoutX="217.0" layoutY="212.0" prefHeight="17.0" prefWidth="333.0" />
+      <Label fx:id="hataMesaji" alignment="CENTER" layoutX="8.0" layoutY="113.0" prefHeight="17.0" prefWidth="603.0" textFill="RED" />
+      <Button fx:id="buton" layoutX="240.0" layoutY="319.0" mnemonicParsing="false" onAction="#ara" prefHeight="50.0" prefWidth="121.0" text="Ara" />
+      <Button fx:id="cikis" layoutX="531.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" text="Çıkış Yap" />
+      <Label layoutX="105.0" layoutY="237.0" text="Brüt Asgari Ücret" />
+      <Label layoutX="112.0" layoutY="264.0" text="Damga Vergisi" />
+      <Label layoutX="119.0" layoutY="293.0" text="Gelir Vergisi" />
+      <Label layoutX="309.0" layoutY="237.0" text="İşsizlik Sigorta Fonu" />
+      <Label layoutX="334.0" layoutY="264.0" text="SGK Primi" />
+      <Label fx:id="brut" layoutX="208.0" layoutY="237.0" prefHeight="17.0" prefWidth="90.0" />
+      <Label fx:id="damga" layoutX="208.0" layoutY="264.0" prefHeight="17.0" prefWidth="90.0" />
+      <Label fx:id="gelir" layoutX="208.0" layoutY="293.0" prefHeight="17.0" prefWidth="90.0" />
+      <Label fx:id="issizlikfon" layoutX="424.0" layoutY="237.0" prefHeight="17.0" prefWidth="90.0" />
+      <Label fx:id="sgkprimi" layoutX="416.0" layoutY="264.0" prefHeight="17.0" prefWidth="90.0" />
+   </children>
+</AnchorPane>

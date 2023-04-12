@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bordro.ControllerGiris">
+   <children>
+      <Label layoutX="43.0" layoutY="99.0" prefHeight="58.0" prefWidth="123.0" text="Kullanıcı Adı">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="171.0" prefHeight="58.0" prefWidth="123.0" text="Parola">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kullaniciAdi" layoutX="166.0" layoutY="99.0" prefHeight="58.0" prefWidth="243.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="parola" layoutX="166.0" layoutY="171.0" prefHeight="58.0" prefWidth="243.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buton" layoutX="166.0" layoutY="254.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="243.0" text="Giriş Yap" />
+      <Label fx:id="hataMesajı" alignment="CENTER" layoutX="-2.0" layoutY="318.0" prefHeight="17.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
